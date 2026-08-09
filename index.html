@@ -353,7 +353,7 @@
     </div>
     <div class="info" onclick="nextTrack()" title="点击切换下一首">
       <div class="song" id="songName">点击播放</div>
-      <div class="artist" id="artistName">周杰伦</div>
+      <div class="artist" id="artistName">徐良</div>
     </div>
     <button class="btn" id="playBtn" onclick="togglePlay()" title="播放/暂停">▶</button>
     <button class="btn" id="nextBtn" onclick="nextTrack()" title="下一首" style="background:transparent;border:1px solid var(--border);width:24px;height:24px;font-size:10px;">⏭</button>
@@ -575,14 +575,16 @@
     }
 
     // ━━ Music Player (NetEase Cloud Music + HTML5 Audio) ━━
-    // NetEase song IDs for Jay Chou classics
+    // NetEase song IDs for Xu Liang (徐良) classics
     const playlist = [
-      { title: '晴天', artist: '周杰伦', neteaseId: '186016' },
-      { title: '夜曲', artist: '周杰伦', neteaseId: '26006' },
-      { title: '稻香', artist: '周杰伦', neteaseId: '185809' },
-      { title: '青花瓷', artist: '周杰伦', neteaseId: '185770' },
-      { title: '七里香', artist: '周杰伦', neteaseId: '185810' },
-      { title: '听妈妈的话', artist: '周杰伦', neteaseId: '185808' }
+      { title: '客官不可以', artist: '徐良', neteaseId: '174963' },
+      { title: '后会无期', artist: '徐良', neteaseId: '174944' },
+      { title: '和平分手', artist: '徐良', neteaseId: '174962' },
+      { title: '坏女孩', artist: '徐良', neteaseId: '174956' },
+      { title: '犯贱', artist: '徐良', neteaseId: '174960' },
+      { title: '红装', artist: '徐良', neteaseId: '174961' },
+      { title: '无颜女', artist: '徐良', neteaseId: '174934' },
+      { title: '七秒钟的记忆', artist: '徐良', neteaseId: '26145112' }
     ];
 
     let currentTrack = 0;
